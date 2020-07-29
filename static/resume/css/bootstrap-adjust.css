@@ -1,0 +1,236 @@
+html,
+body {
+        height: 100%;
+        /* The html and body elements cannot have any padding or margin. */
+}
+
+
+ body {
+	 font-family:"å¾®è½¯é›…é»‘", "å¹¼åœ†", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	 font-size: 14px;
+	 line-height: 20px;
+	 color: #333333;
+	 background-color: #f4f4f4;
+
+      }
+.container-wide{
+	
+}
+
+.container-nav{
+	
+	}
+.wrap {margin: 0 auto;position: relative;max-width: 980px;padding: 0 0;}
+
+#wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+		min-width:980px;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -50px;
+      }
+#wrap > .container {
+        padding-top: 60px;
+      }
+.container-narrow {
+        margin: 0 auto;
+        max-width: 980px;
+      }
+
+.container{
+	width:971px;
+}
+
+.masthead{
+	height:80px;
+	background:url(../img/banner.png) bottom left no-repeat;
+	margin-bottom:5px;
+	
+	}
+
+
+
+/* Customize the navbar links to be fill the entire space of the .navbar */
+
+.header{height: 90px;line-height:90px;background: #fff url('../img/top-shadow.png') bottom repeat-x;position: relative;z-index: 100;}	  
+#intro {background:#4a7aaa;position: relative;z-index: 90;}
+#intro .inner {background:#4a7aaa no-repeat 50% 0;}
+#intro p {color: #0088cc;margin-bottom: 30px; margin-top:10px; font-size: 18px; text-transform: uppercase; font-weight:400;}
+#intro h1 {color: #0088cc; font-weight:800; color:#777; margin-bottom:10px; }
+
+#intro .content {padding: 20px 0 0 560px;background: url('../img/intro-00.jpg') top left no-repeat; height: 220px; max-height: 220px; overflow: hidden;}
+
+#info {background: #dce9f3 url('../img/intro-shadow.png') top center no-repeat; position: relative; top: -9px; margin-bottom: -9px; padding: 40px 0}
+#info ul {padding: 0; margin: 0;}
+#info ul li.col {float: left; width: 25%; padding-left: 5%; padding-right: 3%;}
+#info ul li.col h2 {font-family: 'Viga',"Helvetice Neue", Arial, Tahoma, Verdana;margin-bottom: 15px; padding: 0; background: none; text-align: left; font-size: 20px; color: #3f71af;}
+#info ul li.col p {margin-bottom: 0}
+#info ul li.col-love {background: url('../img/ico/ico-heart.png') top left no-repeat}
+#info ul li.col-integ {background: url('../img/ico/ico-tweet.png') top left no-repeat}
+#info ul li.col-respons {background: url('../img/ico/ico-phone.png') top left no-repeat}
+
+
+
+#detail {background: url('../img/intro-bg-repeat.png') repeat-x;position: relative;z-index: 90;}
+#detail .inner {background: url('../img/detail-bg.png') no-repeat 50% 0;}
+#detail p {color: #d4e7f6; padding-bottom:5px; margin-bottom: 15px; font-size: 18px; text-transform: uppercase}
+#detail .content {padding: 25px 0 0 20px; height:215px; max-height: 215px; background:url(../img/yssy.png) right center no-repeat; }
+#detail .content img{ float:left}
+#detail .content .content1{padding: 20px 0 0 30px; width:500px; float:left;  }
+#detail h1 { font-weight:600; color:#FFF; margin-bottom:10px; }
+#detail .dept_p{ margin-bottom:5px; padding:0; font-weight:400; font-size:16px; color:#bfddf4;}
+#detail .border_p{ border-bottom:#CCC dotted thin; }
+	
+
+ .form-horizontal .text-left{
+			text-align:left;
+		
+		}
+.form-horizontal .control-label {
+  width: 100px;
+}
+.form-horizontal .controls {
+ 
+  margin-left: 120px;
+ 
+}
+.form-horizontal .control-group {
+  margin-bottom: 0;
+}
+
+
+	.table th,
+	.table td {
+	  border-top:none;
+	  width:235px;
+	}
+
+.h5_main{
+	font-size:18px;
+	line-height:36px;
+	font-weight:200;
+	margin-top:20px;
+	margin-bottom:5px;
+}
+
+
+	  .main_left{
+		float:left;
+		width:100%;
+		margin-top:10px;
+	  }
+	  .mainleft_box{
+		  margin:20px 30px 40px 0;
+		  
+	  }
+	  .h4border{
+		border-bottom:1px solid #cbd1d3;
+		padding-bottom:6px;
+		color:#195591;
+		font-family:"å¾®è½¯é›…é»‘", "Arial Unicode MS";
+		font-weight:500;
+		font-size:20px;
+	}
+	.h4border a{
+		text-decoration:none;
+	}
+	.icon-circle-arrow-right{
+		background:url(../img/main_more.png) no-repeat;
+	}
+	.main_more{
+		color:#333;
+		font-size:12px;
+	}
+	 
+	 .main_ul{
+	 }
+	 .main_li{
+		 text-decoration:none;
+		 list-style:none;
+		 font-size:14px;
+		 line-height:28px;
+		 color:#333;
+	 }
+	 .main_a{
+		 background:url(../img/main_li.png) left center no-repeat;
+		 background-position: 0px 7px;
+		 padding-left:12px;
+		 color:#333;
+	 }
+	 .main_a a{
+		 color:#333;
+		 text-decoration:none;
+	 }
+	 
+	 .main_a a:hover{
+		 color:#666;
+	 }
+	 
+	 
+	  .main_box .tabs-box {
+				float:left;
+				width:329px;
+				
+				
+				margin-top:10px;
+
+			}
+	  .slider-box {
+				float:left;
+				width:329px;
+				margin-top:10px;
+	 
+	  }
+	  .clear{
+		  clear:both;
+	  }
+
+
+
+
+
+
+
+
+
+
+	 
+	 
+	 
+/* Set the fixed height of the footer here */
+#push
+ {
+  height: 50px;
+}
+#footer {
+	height:50px;
+	background: #f0f0f0;
+	border-top: 1px solid #e5e5e5;
+}
+.footer_p{
+	width:961px;
+	float:left;
+}
+#footer p{
+	text-align:center;
+	margin:15px auto;
+
+}
+/* Lastly, apply responsive CSS fixes as necessary */
+
+
+@media (max-width: 980px) {
+    .wrap {max-width: 96%;margin: 0; padding: 0 2%}
+    #intro .content {background: none; padding-right: 0}
+    .logos {display: inline-block; text-align: center; width: 100%} 
+    .logos li {display: inline-block;}
+    footer { text-align: center;}
+    footer .cols > li {float: none !important; width: 100% !important; padding: 0 0 15px !important;}
+    footer .socials a {float: none; display: inline-block;}
+    .col.big {text-align: center;}
+}
+
+
+
+
